@@ -1,7 +1,7 @@
 # MPMB XUA24A "The Artificer"
 This script adds the Artificer & its subclasses from the 2024 *Unearthed Arcana: The Artificer* article.
 
-**This script is to be used in conjunction with the 5.24E scripts by ThePokésimmer. It will not work properly without those installed first.**
+**This script is to be used in conjunction with the 5.24E scripts by ThePokésimmer. It will not work properly without those installed first. You can find those scripts here: https://github.com/thepokesimmer/2024-PHB/tree/main**
 
 **Script Credit Note:**
 This file has been compiled by MasterJedi2014, though the bones of the script are based on the code from MPMB and those who have contributed to the sheet's existing material in the "all_WotC_pub+UA" script. The only things in this script that I can currently take credit for are:
