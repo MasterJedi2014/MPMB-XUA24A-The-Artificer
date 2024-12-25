@@ -2,7 +2,7 @@
 	Subject:	Class, Subclasses, Companion Template Option, Magic Items, Creatures, Spell
 	Effect:		This script adds all of the content from the Unearthed Arcana 2024: The Artificer article.
 				This file has been made by MasterJedi2014, borrowing a lot of code from MorePurpleMoreBetter (Joost), Shroo, ThePokésimmer, TrackAtNite, and those who have contributed to the sheet's existing material.
-	Code by:	MasterJedi2014, using MorePurpleMoreBetter's code as reference; Shroo; ThePokésimmer
+	Code by:	MasterJedi2014, using MorePurpleMoreBetter's code as reference; Shroo; ThePokésimmer; TrackAtNite
 	Date:		2024-12-25 (sheet v13.2.3)
 	Notes:		This file will start by shunting the old Artificer and its subclasses into a "Legacy" class using code primarily developed by Shroo.
 				It will thereafter define the new UA Artificer, along with options to customize some class features to include certain aspects of the old Artificer class features.
