@@ -19,6 +19,8 @@ This script will allow users to more easily playtest the revised Artificer. It a
   - V12 superseded by V13. Updated the `regExpSearch` strings of the base class & the subclasses to match the strings of the base class & the subclasses in the `all_WotC_pub+UA.js` file. This seems to have fixed some bugs that were causing old pre-*ERLW* Armorer features to appear in the place of the XUA24A Armorer's features.
 - **2025-01-01:**
   - V13 superseded by V16. The script now allows the user to select all allowed Common, Uncommon, & Rare magic items at the appropriate levels. Much thanks to user TrackAtNite, as without their code, this wouldn't be functioning as it now is.
+- **2025-01-04:**
+  - V16 superseded by V17. The script now adds the Elementalism, True Strike, Arcane Vigor, Dragon's Breath, & Circle of Power spells to the UA Artificer's spell list.
 
 **Known Bugs:**
 - No known bugs at this time. Will update when any are found.
