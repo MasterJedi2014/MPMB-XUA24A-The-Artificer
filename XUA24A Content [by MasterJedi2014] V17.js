@@ -1187,11 +1187,11 @@ SpellsList["homunculus servant xua24a"] = {
 };
 
 // Alter existing spells to add them to the Artificer spell list
-SpellsList["elementalism"].classes : ["artificer", "druid", "sorcerer", "wizard"];
-SpellsList["true strike"].classes : ["artificer", "bard", "sorcerer", "warlock", "wizard"];
-SpellsList["arcane vigor"].classes : ["artificer", "sorcerer", "wizard"];
-SpellsList["dragon's breath"].classes : ["artificer", "sorcerer", "wizard"];
-SpellsList["circle of power"].classes : ["artificer", "cleric", "paladin", "wizard"];
+SpellsList["elementalism"].classes = ["artificer", "druid", "sorcerer", "wizard"];
+SpellsList["true strike"].classes = ["artificer", "bard", "sorcerer", "warlock", "wizard"];
+SpellsList["arcane vigor"].classes = ["artificer", "sorcerer", "wizard"];
+SpellsList["dragon's breath"].classes = ["artificer", "sorcerer", "wizard"];
+SpellsList["circle of power"].classes = ["artificer", "cleric", "paladin", "wizard"];
 
 // Add "Homunculus Servant" companion template
 CompanionList.homunculusservant_xua24a = {
