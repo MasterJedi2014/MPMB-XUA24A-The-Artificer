@@ -138,6 +138,9 @@ legacyClassRefactor("artificer", {
   spellcastingAbility: 4,
   spellcastingFactor: 2,
   spellcastingFactorRoundupMulti : true,
+  spellcastingTable : [[0, 0, 0, 0, 0, 0, 0, 0, 0]].concat(levels.map(function (n) {
+	return defaultSpellTable[Math.ceil(n / 2)];
+  })),
   spellcastingKnown: {
     cantrips: [2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4],
     spells: "list",
@@ -151,9 +154,9 @@ legacyClassRefactor("artificer", {
 	  description : desc([
 		"As a Magic action, I use Tinker's Tools to create one item per 2024 PHB in an unoccupied space within 5ft.",
 		"I can only make one of the following, which will last for one hour:",
-		" \u2022 Ball Bearings \u2022 Basket \u2022 Bedroll \u2022 Bell \u2022 Blanket \u2022 Block & Tackle \u2022 Bucket \u2022 Caltrops \u2022 Candle \u2022 Crowbar",
-		" \u2022 Flask \u2022 Jug \u2022 Lamp \u2022 Net \u2022 Oil \u2022 Paper \u2022 Parchment \u2022 Pole \u2022 Pouch \u2022 Rope \u2022 Sack \u2022 Shovel \u2022 String",
-		" \u2022 Tinderbox \u2022 Torch \u2022 Vial",
+		" \u2022 Ball Bearings \u2022 Basket \u2022 Bedroll \u2022 Bell \u2022 Blanket \u2022 Block & Tackle \u2022 Bucket \u2022 Caltrops \u2022 Candle",
+		" \u2022 Crowbar \u2022 Flask \u2022 Jug \u2022 Lamp \u2022 Net \u2022 Oil \u2022 Paper \u2022 Parchment \u2022 Pole \u2022 Pouch \u2022 Rope \u2022 Sack",
+		" \u2022 Shovel \u2022 String \u2022 Tinderbox \u2022 Torch \u2022 Vial",
 	  ]),
 	  usages : "Intelligence modifier per ",
 	  usagescalc : "event.value = Math.max(1, What('Int Mod'));",
@@ -230,8 +233,10 @@ legacyClassRefactor("artificer", {
         ]
       },
       description: desc([
-        "I can cast Cantrips & Prepared level 1+ Artificer spells using Int as my spellcasting ability & Artisan's Tools as a Spellcasting Focus.",
-		"I can replace one cantrip with another when I finish a Long Rest; I can change my Prepared spells at the end of a Long Rest.",
+        "I can cast Artificer spells using Int as my spellcasting ability. I can use Thieves' Tools,",
+		"Tinker's Tools, or another kind of Artisan's Tools I am proficient with as a Spellcasting Focus",
+		"I must have one of those foci in hand when I cast an Artificer spell",
+		"I can replace one cantrip with another when I finish a Long Rest",
       ]),
 	  extrachoices : ["Don't change component column on spell sheet"],
 	  extraname : "Artificer Spellcasting",
