@@ -22,7 +22,7 @@ This script will allow users to more easily playtest the revised Artificer. It a
 - **2025-01-04:**
   - V16 superseded by V17. The script now adds the Elementalism, True Strike, Arcane Vigor, Dragon's Breath, & Circle of Power spells to the UA Artificer's spell list.
 - **2025-01-21:**
-  - V17 has been updated with the following changes: The code that alters the Elementalism, True Strike, Arcane Vigor, Dragon's Breath, & Circle of Power spells changed so as to prevent possible sheet errors. The script has been updated with code to fix an issue preventing 1st level Artificers from being able to generate a spell sheet.
+  - V17 has been updated with the following changes: The code that alters the Elementalism, True Strike, Arcane Vigor, Dragon's Breath, & Circle of Power spells has been changed so as to prevent possible sheet errors; The script has been updated with code to fix an issue preventing 1st level Artificers from being able to generate a spell sheet.
 
 **Known Bugs:**
 - No known bugs at this time. Will update when any are found.
