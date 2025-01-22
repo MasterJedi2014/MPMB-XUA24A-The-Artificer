@@ -21,6 +21,8 @@ This script will allow users to more easily playtest the revised Artificer. It a
   - V13 superseded by V16. The script now allows the user to select all allowed Common, Uncommon, & Rare magic items at the appropriate levels. Much thanks to user TrackAtNite, as without their code, this wouldn't be functioning as it now is.
 - **2025-01-04:**
   - V16 superseded by V17. The script now adds the Elementalism, True Strike, Arcane Vigor, Dragon's Breath, & Circle of Power spells to the UA Artificer's spell list.
+- **2025-01-21:**
+  - V17 code that alters the Elementalism, True Strike, Arcane Vigor, Dragon's Breath, & Circle of Power spells changed so as to prevent possible sheet errors.
 
 **Known Bugs:**
 - No known bugs at this time. Will update when any are found.
