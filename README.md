@@ -25,7 +25,7 @@ This script will allow users to more easily playtest the revised Artificer. It a
   - V17 has been updated with the following changes: The code that alters the Elementalism, True Strike, Arcane Vigor, Dragon's Breath, & Circle of Power spells has been changed so as to prevent possible sheet errors; The script has been updated with code to fix an issue preventing 1st level Artificers from being able to generate a spell sheet.
 
 **Known Bugs:**
-- No known bugs at this time. Will update when any are found.
+- V17: The "Replicate Magic Item" feature only adds the blanket statement magic item plan listings (ex: non-potion, scroll, or cursed Common magic items at lvl 2); It isn't adding the items that the rest of the tables at each level say are available. This is causing some items to appear in "Replicate Magic Item" menus of a later level than they should.
 
 **Script Content Source:**
 - https://media.dndbeyond.com/compendium-images/ua/the-artificer/AzQEA72K8EMf9HmU/UA2024-Artificer.pdf
